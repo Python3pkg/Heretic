@@ -1,15 +1,15 @@
-Foobar
+Heretic
 ======
 
 [![Build Status](https://travis-ci.org/jacebrowning/template-python.png?branch=master)](https://travis-ci.org/jacebrowning/template-python)
 [![Coverage Status](https://coveralls.io/repos/jacebrowning/template-python/badge.png?branch=master)](https://coveralls.io/r/jacebrowning/template-python?branch=master)
-[![PyPI Version](https://badge.fury.io/py/Foobar.png)](http://badge.fury.io/py/Foobar)
+[![PyPI Version](https://badge.fury.io/py/Heretic.png)](http://badge.fury.io/py/Heretic)
 
-Foobar is a template for a typical Python 3 library package.
+Heretic is a template for a typical Python 3 library package.
 
 To adopt for a new project:
 
-* replace Foobar/foobar with your project/package name (they might be the same)
+* replace Heretic/heretic with your project/package name (they might be the same)
 * update the links to point to your code repository and badges
 * change the license
 
@@ -27,9 +27,9 @@ Requirements
 Installation
 ------------
 
-Foobar can be installed with 'pip':
+Heretic can be installed with 'pip':
 
-    pip install Foobar
+    pip install Heretic
 
 Or directly from the source code:
 
@@ -45,10 +45,10 @@ Basic Usage
 After installation, abstract base classes can be imported from the package:
 
     python
-    >>> import foobar
-    foobar.__version__
+    >>> import heretic
+    heretic.__version__
 
-Foobar doesn't do anything, it's a template.
+Heretic doesn't do anything, it's a template.
 
 
 

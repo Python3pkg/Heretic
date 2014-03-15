@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-"""Package for Foobar."""
+"""Package for Heretic."""
 
-__project__ = 'Foobar'
+__project__ = 'Heretic'
 __version__ = '0.0.0'
 
 VERSION = __project__ + '-' + __version__
