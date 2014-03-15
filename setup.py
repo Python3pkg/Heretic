@@ -20,7 +20,7 @@ setuptools.setup(
     name=__project__,
     version=__version__,
 
-    description="Heretic is a validation engine for verifying conditions are met.",
+    description="Heretic is a validation engine for written in python.",
     url='http://pypi.python.org/pypi/Heretic',
     author='Jeff Kloosterman',
     author_email='kloosterman.jeff@gmail.com',
