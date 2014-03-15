@@ -6,7 +6,7 @@ Heretic
 [![PyPI Version](https://badge.fury.io/py/Heretic.png)](http://badge.fury.io/py/Heretic)
 
 
-Validation engine for verifying conditions are met.
+Heretic is a validation engine written in python 3.
 
 
 Getting Started
