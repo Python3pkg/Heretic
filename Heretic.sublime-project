@@ -1,42 +1,98 @@
 {
+	"SublimeLinter":
+	{
+		"linters":
+		{
+			"pep257":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"pep8":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"ignore": "E501",
+				"max-line-length": 79,
+				"select": ""
+			},
+			"pylint":
+			{
+				"@disable": false,
+				"args":
+				[
+					"--max-line-length=79"
+				],
+				"disable": "I0011,W0142,W0511,R0801",
+				"enable": "",
+				"excludes":
+				[
+				],
+				"rcfile": ""
+			}
+		}
+	},
 	"folders":
 	[
 		{
-			"path": ".",
-            "file_exclude_patterns": [".coverage", "*.sublime-workspace"],
-            "folder_exclude_patterns": [".*", "__pycache__", "build", "dist", "env", "*.egg-info"]
+			"file_exclude_patterns":
+			[
+				"*.gen.*",
+				"docs/*.html",
+				"*.rst",
+				"*.gdoc",
+				"*.gsheet",
+				"*.gslides",
+				"*.gdraw",
+				"*.py[cod]",
+				"*.so",
+				"*.egg",
+				"*.egg-info",
+				".installed.cfg",
+				"pip-log.txt",
+				".cache",
+				".coverage",
+				".tox",
+				"nosetests.xml",
+				"*.mo",
+				".mr.developer.cfg",
+				".project",
+				".pydevproject",
+				"*.sublime-workspace"
+			],
+			"folder_exclude_patterns":
+			[
+				"apidocs",
+				"dist",
+				"build",
+				"eggs",
+				"parts",
+				"bin",
+				"var",
+				"sdist",
+				"develop-eggs",
+				"lib",
+				"lib64",
+				"__pycache__",
+				"env",
+				"Icon*"
+			],
+			"path": "."
 		}
 	],
-    "settings":
-    {
-        "tab_size": 4,
-        "translate_tabs_to_spaces": true
-    },
-    "SublimeLinter":
-    {
-        "linters":
-        {
-            "pep257": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "pep8": {
-                "@disable": false,
-                "args": [],
-                "excludes": [],
-                "ignore": "E501",
-                "max-line-length": 79,
-                "select": ""
-            },
-            "pylint": {
-                "@disable": false,
-                "args": ["--max-line-length=79"],
-                "disable": "I0011,W0142,W0511,R0801",
-                "enable": "",
-                "excludes": [],
-                "rcfile": ""
-            }
-        }
-    },
+	"settings":
+	{
+		"tab_size": 4,
+		"translate_tabs_to_spaces": true
+	}
 }

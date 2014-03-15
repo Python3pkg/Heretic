@@ -1,18 +1,12 @@
 Heretic
 ======
 
-[![Build Status](https://travis-ci.org/jacebrowning/template-python.png?branch=master)](https://travis-ci.org/jacebrowning/template-python)
-[![Coverage Status](https://coveralls.io/repos/jacebrowning/template-python/badge.png?branch=master)](https://coveralls.io/r/jacebrowning/template-python?branch=master)
+[![Build Status](https://travis-ci.org/jkloo/Heretic.png?branch=master)](https://travis-ci.org/jkloo/Heretic)
+[![Coverage Status](https://coveralls.io/repos/jkloo/Heretic/badge.png?branch=master)](https://coveralls.io/r/jkloo/Heretic?branch=master)
 [![PyPI Version](https://badge.fury.io/py/Heretic.png)](http://badge.fury.io/py/Heretic)
 
-Heretic is a template for a typical Python 3 library package.
 
-To adopt for a new project:
-
-* replace Heretic/heretic with your project/package name (they might be the same)
-* update the links to point to your code repository and badges
-* change the license
-
+Validation engine for verifying conditions are met.
 
 
 Getting Started
@@ -33,8 +27,8 @@ Heretic can be installed with 'pip':
 
 Or directly from the source code:
 
-    git clone https://github.com/jacebrowning/template-python.git
-    cd template-python
+    git clone https://github.com/jkloo/Heretic.git
+    cd Heretic
     python setup.py install
 
 
@@ -47,8 +41,6 @@ After installation, abstract base classes can be imported from the package:
     python
     >>> import heretic
     heretic.__version__
-
-Heretic doesn't do anything, it's a template.
 
 
 
